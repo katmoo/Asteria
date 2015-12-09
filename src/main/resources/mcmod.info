@@ -1,0 +1,21 @@
+[
+  {
+    "modid": "AST",
+    "name": "Astéria",
+    "description": "An overly ambitious magic mod for Minecraft.",
+    "version": "${mod_version}",
+    "mcversion": "${minecraft_version}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "katmoo"
+    ],
+    "credits": "Pahimar and MineMaarten for supplying me with the tutorials I needed to get started.",
+    "logoFile": "",
+    "screenshots": [
+    ],
+    "parent": "",
+    "dependencies": [
+    ]
+  }
+]
