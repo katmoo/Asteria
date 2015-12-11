@@ -1,9 +1,15 @@
 # Config
 
 # Items
-item.ast:manual.name=A Loser's Guide to the Stars
+item.ast:manual.name=§bA Loser's Guide to the Stars
+item.ast:manual.desc0=§n§fAstéria Manual, 1st Edition
+item.ast:manual.desc1=§oBy Katmoo
 
 # Blocks
 
 # Creative Tabs
 itemGroup.ast=Astéria
+
+# Manual Pages
+gui.ast:manual.cover00=A Loser's Guide to the Stars
+gui.ast:manual.cover01=Oh wow

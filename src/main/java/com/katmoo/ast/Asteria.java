@@ -1,6 +1,7 @@
 package com.katmoo.ast;
 
 import com.katmoo.ast.handler.ConfigHandler;
+import com.katmoo.ast.handler.FMLEventHandler;
 import com.katmoo.ast.init.ModItems;
 import com.katmoo.ast.proxy.IProxy;
 import com.katmoo.ast.ref.RefStr;
@@ -32,6 +33,7 @@ public class Asteria {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+        FMLCommonHandler.instance().bus().register(FMLEventHandler.INSTANCE);
 
         LogHelper.info("Initialization Complete!");
     }
